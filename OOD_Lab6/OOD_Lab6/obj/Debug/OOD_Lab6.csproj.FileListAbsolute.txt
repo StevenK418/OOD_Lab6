@@ -38,3 +38,9 @@ C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\obj\Debug\OOD_Lab6.c
 C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\obj\Debug\OOD_Lab6.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\obj\Debug\OOD_Lab6.exe
 C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\obj\Debug\OOD_Lab6.pdb
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\bin\Debug\MaterialDesignColors.dll
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\User\source\repos\OOD_Lab6_Bands\OOD_Lab6\OOD_Lab6\obj\Debug\App.baml
