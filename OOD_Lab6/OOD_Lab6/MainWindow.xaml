@@ -14,13 +14,30 @@
                     <TextBlock Text="{Binding Path=Name}" FontSize="18" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
         </DataTemplate>
-        
+        <!-- Attempt to add dataTemplate for albums - not working. 
+        <DataTemplate x:Key="dataTemplateAlbums">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding Path=AlbumImage}" Width="100"/>
+                <TextBlock Text="{Binding Path=Name}" FontSize="18" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+        -->
     </Window.Resources>
     <Grid>
-        <ListBox x:Name="LSTBX_Bands" HorizontalAlignment="Left" Height="260" Margin="76,82,0,0" VerticalAlignment="Top" Width="227" SelectionChanged="LSTBX_Bands_SelectionChanged" ItemTemplate="{StaticResource dataTemplateBands}"/>
+        <ListBox x:Name="LSTBX_Bands" 
+                 HorizontalAlignment="Left" 
+                 Height="260" 
+                 Margin="76,82,0,0" 
+                 VerticalAlignment="Top" Width="227" 
+                 SelectionChanged="LSTBX_Bands_SelectionChanged" 
+                 ItemTemplate="{StaticResource dataTemplateBands}"/>
         <Label Content="BANDS" HorizontalAlignment="Left" Margin="76,51,0,0" VerticalAlignment="Top" Width="227"/>
-        <ListBox x:Name="LSTBXAlbums" HorizontalAlignment="Left" Height="260" Margin="457,82,0,0" VerticalAlignment="Top" Width="262"/>
+        <ListBox x:Name="LSTBXAlbums" 
+                 HorizontalAlignment="Left" 
+                 Height="260" 
+                 Margin="457,82,0,0" 
+                 VerticalAlignment="Top" 
+                 Width="262" />
         <Label Content="ALBUMS" HorizontalAlignment="Left" Margin="457,51,0,0" VerticalAlignment="Top" Width="262"/>
-
     </Grid>
 </Window>
