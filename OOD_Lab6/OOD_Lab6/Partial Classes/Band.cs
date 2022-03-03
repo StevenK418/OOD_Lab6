@@ -18,7 +18,7 @@ namespace OOD_Lab6
         /// <returns>Returns the name of of the album as a string</returns>
         public override string ToString()
         {
-            return $"{Name}";
+            return $"{Name} ({YearFormed})";
         }
     }
 }
