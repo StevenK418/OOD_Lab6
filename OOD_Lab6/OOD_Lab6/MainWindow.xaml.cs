@@ -57,25 +57,11 @@ namespace OOD_Lab6
             //Get reference to the listbox that sent this event
             ListBox box = (ListBox) sender;
             //Get reference to the selected band
-            //Band band = (Band)box.SelectedItem;
+            Band band = (Band)box.SelectedItem;
 
-            //Using Selected Value Path
-            int selectedBandId = (int) box.SelectedValue;
-
-            if (selectedBandId > 0)
-            {
-                //Query the database for the boos matching the selected band
-                var query =
-                    from b in db.Albums
-                    where b.Band.Id == selectedBandId
-                    select b.Name;
-
-                //Assign the query's result set as the data source for the albums listbox
-                LSTBXAlbums.ItemsSource = query.ToList();
-            }
 
             //If the band selected is not null
-           /* if (band != null)
+            if (band != null)
             {
                 //Query the database for the boos matching the selected band
                 var query = 
@@ -85,7 +71,7 @@ namespace OOD_Lab6
 
                 //Assign the query's result set as the data source for the albums listbox
                 LSTBXAlbums.ItemsSource = query.ToList();
-            }*/
+            }
         }
     }
 }
