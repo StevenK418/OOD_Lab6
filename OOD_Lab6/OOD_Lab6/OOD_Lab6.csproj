@@ -134,6 +134,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="images\ajfa.jpg" />
+    <Resource Include="images\BlackAlbum.jpg" />
+    <Resource Include="images\Lateralus.jpg" />
+    <Resource Include="images\metallica.jpg" />
+    <Resource Include="images\tool.jpg" />
+    <Resource Include="images\Undertow.jpg" />
     <Content Include="Model2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model2.Context.cs</LastGenOutput>
