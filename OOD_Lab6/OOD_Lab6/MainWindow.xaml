@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <ListBox x:Name="LSTBX_Bands" HorizontalAlignment="Left" Height="260" Margin="76,82,0,0" VerticalAlignment="Top" Width="227" SelectionChanged="LSTBX_Bands_SelectionChanged"/>
+        <ListBox x:Name="LSTBX_Bands" HorizontalAlignment="Left" Height="260" Margin="76,82,0,0" VerticalAlignment="Top" Width="227" SelectionChanged="LSTBX_Bands_SelectionChanged" DisplayMemberPath="Name" SelectedValuePath="Id"/>
         <Label Content="BANDS" HorizontalAlignment="Left" Margin="76,51,0,0" VerticalAlignment="Top" Width="227"/>
         <ListBox x:Name="LSTBXAlbums" HorizontalAlignment="Left" Height="260" Margin="457,82,0,0" VerticalAlignment="Top" Width="262"/>
         <Label Content="ALBUMS" HorizontalAlignment="Left" Margin="457,51,0,0" VerticalAlignment="Top" Width="262"/>
